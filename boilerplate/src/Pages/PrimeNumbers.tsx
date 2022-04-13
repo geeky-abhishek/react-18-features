@@ -1,6 +1,6 @@
 import  { useState } from 'react';
 import { CheckNumber } from '../components/CheckNumber';
-import  PrimeRange  from '../components/PrimeNumber';
+import  PrimeRange  from '../components/PrimeRange';
 
 const defaultValue = 250;
 

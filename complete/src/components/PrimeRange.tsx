@@ -10,7 +10,7 @@ interface Props {
 }
 
 
-const PrimeNumber = ({ defaultValue, onChange }: Props) => {
+const PrimeRange = ({ defaultValue, onChange }: Props) => {
   const [maxPrimeRange, setMaxPrimeRange] = useState(defaultValue);
   const [maxPrime, setMaxPrime] = useState(() => {
     for (let i = 0; i < selectItems.length; i++) {
@@ -51,4 +51,4 @@ const PrimeNumber = ({ defaultValue, onChange }: Props) => {
   )
 }
 
-export default PrimeNumber
+export default PrimeRange
