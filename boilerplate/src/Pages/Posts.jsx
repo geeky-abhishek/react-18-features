@@ -11,7 +11,6 @@ const Posts = () => {
             .then(res => setPosts(res.data))
     }, [])
     console.log('Postss:', posts);
-
     if (!posts)
         return <Loader />
     return (
