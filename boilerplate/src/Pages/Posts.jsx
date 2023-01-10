@@ -14,6 +14,7 @@ const Posts = () => {
 
     if (!posts)
         return <Loader />
+        
     return (
         <Row>
             {posts.map((post,index) =>
