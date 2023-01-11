@@ -19,6 +19,7 @@ const Posts = () => {
         <Row>
             {posts.map((post,index) =>
                 <Col md='4' key={`${posts.userId}_${index}`}>
+                  hello posts:
                      <Post post={post} />
                 </Col>)}
         </Row>
