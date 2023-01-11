@@ -16,13 +16,15 @@ const Posts = () => {
         return <Loader />
         
     return (
+        <>
+        <h6>Test Data</h6>
         <Row>
             {posts.map((post,index) =>
                 <Col md='4' key={`${posts.userId}_${index}`}>
-                  hello posts:
                      <Post post={post} />
                 </Col>)}
         </Row>
+        </>
     )
 }
 
