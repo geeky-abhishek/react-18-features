@@ -17,7 +17,7 @@ const Posts = () => {
         
     return (
         <>
-        <h6>Test Data</h6>
+        <h6>Test</h6>
         <Row>
             {posts.map((post,index) =>
                 <Col md='4' key={`${posts.userId}_${index}`}>
