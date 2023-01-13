@@ -14,12 +14,15 @@ const Users = () => {
     if (!users)
         return <Loader />
     return (
-        <Row>
+        <>
+        <h1>Hey It's for testing</h1>
+         <Row>
             {users.map((user,index) =>
                 <Col md='4' key={`${user.id.value}_${index}`}>
                      <UserCard user={user} />
                 </Col>)}
         </Row>
+        </>
     )
 }
 
