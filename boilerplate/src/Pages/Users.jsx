@@ -9,8 +9,8 @@ const Users = () => {
     useEffect(() => {
         axios.get('https://randomuser.me/api/?results=500')
             .then(res => setUsers(res.data.results))
-    }, [])
-    console.log('users:', users);
+    }, []);
+    
     if (!users)
         return <Loader />
     return (
