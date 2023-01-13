@@ -10,7 +10,7 @@ const Users = () => {
         axios.get('https://randomuser.me/api/?results=500')
             .then(res => setUsers(res.data.results))
     }, [])
-    console.log('users:', users);
+    console.log('usersxddd:', users);
     if (!users)
         return <Loader />
     return (
