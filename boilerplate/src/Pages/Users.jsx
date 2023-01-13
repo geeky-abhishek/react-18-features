@@ -11,6 +11,7 @@ const Users = () => {
             .then(res => setUsers(res.data.results))
     }, [])
     console.log('users:', users);
+    console.log("test")
     if (!users)
         return <Loader />
     return (
