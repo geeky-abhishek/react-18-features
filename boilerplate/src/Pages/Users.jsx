@@ -13,6 +13,7 @@ const Users = () => {
 
     if (!users)
         return <Loader />
+        console.log("bbbbbb")
     return (
         <Row>
             {users.map((user,index) =>
